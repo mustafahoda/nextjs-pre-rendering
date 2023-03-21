@@ -9,8 +9,11 @@ export default function Home() {
   return (
     <>
       <h1> Next JS pre Rendering</h1>
-      <Link href="/users">
+      <Link legacyBehavior href="/users">
         <a>Users</a>
+      </Link>
+      <Link legacyBehavior href="/posts" >
+        <a>Posts</a>
       </Link>
     </>
   )
